@@ -1,6 +1,14 @@
 evaluation/data/
 char-env/
 
+evaluation/.DS_Store
+.idea/charity-filter-evaluation.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
