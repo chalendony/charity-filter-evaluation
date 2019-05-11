@@ -1,4 +1,7 @@
-evaluation/data/
+notes.txt
+evaluation/data/charity/
+evaluation/data/raw/
+evaluation/data/.DS_Store
 char-env/
 
 evaluation/.DS_Store
