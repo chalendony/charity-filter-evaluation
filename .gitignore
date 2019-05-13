@@ -3,6 +3,7 @@ evaluation/data/charity/
 evaluation/data/raw/
 evaluation/data/.DS_Store
 char-env/
+images/
 
 evaluation/.DS_Store
 .idea/charity-filter-evaluation.iml
