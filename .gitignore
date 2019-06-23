@@ -9,7 +9,8 @@ money.ipynb
 Untitled.ipynb
 notes.txt
 
-evaluation/.DS_Store
+evaluation/
+.DS_Store/
 .idea/charity-filter-evaluation.iml
 .idea/misc.xml
 .idea/modules.xml

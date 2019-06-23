@@ -4,13 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/evaluation/scripts/charity/text.py" line="30" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c40ce026-fb36-46f1-9972-85e00cb4f276" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/charity-filter-evaluation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/charity-filter-evaluation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Charity Evalution.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Charity Evalution.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eventregistry.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/eventregistry.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="c40ce026-fb36-46f1-9972-85e00cb4f276" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +16,54 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/evaluation/scripts/news/newsapi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="300">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/evaluation/eventregistry.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="47" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/evaluation/scripts/news/news_from_ntproject.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Untitled.ipynb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-52" />
           </provider>
         </entry>
       </file>
@@ -78,7 +108,6 @@
         <option value="$PROJECT_DIR$/evaluation/scripts/organization_home.py" />
         <option value="$PROJECT_DIR$/evaluation/scripts/home_organization.py" />
         <option value="$PROJECT_DIR$/evaluation/scripts/text_organization.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/evaluation/scripts/home.py" />
         <option value="$PROJECT_DIR$/evaluation/data/raw/done.txt" />
         <option value="$PROJECT_DIR$/evaluation/data/raw/charity/batch1.txt" />
@@ -91,6 +120,7 @@
         <option value="$PROJECT_DIR$/Charity Evalution.ipynb" />
         <option value="$PROJECT_DIR$/evaluation/scripts/news/newsapi.py" />
         <option value="$PROJECT_DIR$/evaluation/eventregistry.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -128,7 +158,21 @@
               <item name="charity-filter-evaluation" type="b2602c69:ProjectViewProjectNode" />
               <item name="charity-filter-evaluation" type="462c0819:PsiDirectoryNode" />
               <item name="evaluation" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="charity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="charity-filter-evaluation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="charity-filter-evaluation" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluation" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="charity-filter-evaluation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="charity-filter-evaluation" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluation" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="charity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="charity-filter-evaluation" type="b2602c69:ProjectViewProjectNode" />
@@ -430,13 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/evaluation/data/charity/batch1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -468,13 +505,6 @@
     <entry file="file://$PROJECT_DIR$/evaluation/data/copy_charity_navigator.csv" />
     <entry file="file://$PROJECT_DIR$/notebooks/Charity Evalution.ipynb" />
     <entry file="file://$PROJECT_DIR$/../data-prep-visualization/Data Preparation and Visualization.ipynb" />
-    <entry file="file://$PROJECT_DIR$/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../data-prep-visualization/Automated Feature Engineering with Featuretools.ipynb" />
     <entry file="file://$PROJECT_DIR$/evaluation/scripts/charity/text.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -491,13 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/evaluation/scripts/news/newsapi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/evaluation/scripts/charity/home.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -509,6 +532,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/scripts/news/news_from_ntproject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Untitled.ipynb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/scripts/news/newsapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
