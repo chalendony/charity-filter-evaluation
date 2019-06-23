@@ -4,6 +4,10 @@ evaluation/data/raw/
 evaluation/data/.DS_Store
 char-env/
 images/
+evaluation/scripts/news/news_from_ntproject.py
+money.ipynb
+Untitled.ipynb
+notes.txt
 
 evaluation/.DS_Store
 .idea/charity-filter-evaluation.iml
@@ -13,7 +17,7 @@ evaluation/.DS_Store
 .idea/workspace.xml
 .idea/
 .idea/
-
+.ipynb_checkpoints/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
