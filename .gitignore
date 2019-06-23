@@ -8,6 +8,7 @@ evaluation/scripts/news/news_from_ntproject.py
 money.ipynb
 Untitled.ipynb
 notes.txt
+NewsApiClient.ipynb
 
 evaluation/.DS_Store/
 .DS_Store/
@@ -20,6 +21,7 @@ evaluation/.DS_Store/
 .idea/
 .ipynb_checkpoints/
 
+evaluation/scripts/.DS_Store/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
