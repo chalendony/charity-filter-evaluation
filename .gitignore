@@ -1,14 +1,14 @@
 notes.txt
-evaluation/data/charity/
-evaluation/data/raw/
-evaluation/data/.DS_Store
+data/charity/
+data/raw/
+data/.DS_Store
 char-env/
 images/
-evaluation/scripts/news/news_from_ntproject.py
+collector/news/news_from_ntproject.py
 money.ipynb
 Untitled.ipynb
 notes.txt
-NewsApiClient.ipynb
+notebooks/NewsApiClient.ipynb
 
 evaluation/.DS_Store/
 .DS_Store/
@@ -21,7 +21,7 @@ evaluation/.DS_Store/
 .idea/
 .ipynb_checkpoints/
 
-evaluation/scripts/.DS_Store/
+collector/.DS_Store/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
