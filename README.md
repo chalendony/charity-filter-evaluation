@@ -15,8 +15,7 @@ Language: German, English
 Schema:
 Each entry is a (key, value) mapping from an integer id to a BetterPlace "data" object. The keys are a unique identifier for the project.
 
-
-- Example :
+Example Schema:
 
 ```
 {5, {id:5, name='Name of Project', description="description of the project" ....}}
