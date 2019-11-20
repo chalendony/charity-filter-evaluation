@@ -23,16 +23,16 @@ https://www.betterplace.org/de/api_v4/projects?category_id=2
 
 session = HTMLSession()
 
-path = "/home/avare/repos/charity-filter-evaluation/data/"
-outfile = "betterplace_projects.json"
+## TODO move to config
+path = "/home/avare/repos/charity_navigator-filter-evaluation/data/"
+outfile = "betterplace_projects_de.json"
+max_category_id = 46
+base = "https://www.betterplace.org/de/api_v4/projects?per_page=100&category_id="
 
 # dict
 PROJ =  {}
 category = {}
 category_totals = {}
-max_category_id = 46
-base = "https://www.betterplace.org/de/api_v4/projects?per_page=100&category_id="
-
 
 
 def count_projects_on_page(page):
@@ -42,20 +42,6 @@ def count_projects_on_page(page):
 
 
 def projects():
-    """
-    Project Schema
-    id: int
-    name: str
-    description: str
-    summary: str
-    categories: lst int
-
-    Category Schema
-    id,
-    name
-    project_count: int
-    projects: lst int
-    """
 
     # max category id
     for category in range (1,max_category_id):
@@ -66,23 +52,24 @@ def projects():
         total_entries = dat["total_entries"]
         total_pages = dat["total_pages"]
 
+        print(f"category: ", category)
         print(f"total_entries: ",total_entries)
         print(f"total_pages: ", total_pages)
 
-        # total_pages
-        for page in range(1,2):
+        # total_pages : project for the given category
+        for page in range(1,total_pages):
 
             url = base + str(category) + '&page=' + str(page)
             text = getpage(url)
             dat = json.loads(text)
             nr_proj = count_projects_on_page(dat)
 
-            # nr_proj
+            # assign categories to every project
             for p in range(0,nr_proj):
                 proj = dat['data'][p]
                 id = proj['id']
 
-                # we assume a project can be assigned to multiple categories
+                # a project can be associated with multiple categories
                 if id in PROJ:
                     #print(f"project with multiple categories ", id)
                     PROJ[id]['categories'].append(category)
