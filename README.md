@@ -1,4 +1,4 @@
-- Charity Filter Evaluation
+# Charity Filter Evaluation
 
 Uses the BetterPlace API to  produce a json file containing metadata about social project
 
