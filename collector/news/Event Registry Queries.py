@@ -17,7 +17,7 @@ conceptUri = ['https://en.wikipedia.org/wiki/Poverty','https://en.wikipedia.org/
 target_lst = ['museum']
 
 #target_lst.extend(goals)
-max_items = 3
+max_items = 1
 
 er = EventRegistry(apiKey = apikey)
 
@@ -63,3 +63,19 @@ q = QueryArticlesIter(
 for art in q.execQuery(er, sortBy = "socialScore", maxItems = 500):
     print(art)
 
+
+from eventregistry import *
+
+apikey = 'eda663f8-e934-42a5-88e2-bd75014130d1'
+
+
+target_lst = ['museums', 'united ways', 'development and relief services',
+              'advocacy and education', 'children and family services']
+
+er = EventRegistry(apiKey = apikey)
+q = QueryArticlesIter(
+    keywords = QueryItems.OR(["George Clooney", "Sandra Bullock"]),
+    dataType = ["news", "blog"])
+# obtain at most 500 newest articles or blog posts
+for art in q.execQuery(er, sortBy = "date", maxItems = 500):
+    print(art)

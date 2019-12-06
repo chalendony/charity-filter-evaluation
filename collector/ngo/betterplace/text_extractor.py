@@ -9,7 +9,7 @@ from collections import namedtuple
 
 ## TODO move to config
 path = "/home/avare/repos/charity_navigator-filter-evaluation/data/"
-outfile = "betterplace_projects_de.json"
+outfile = "betterplace_projects_de_bak.json"
 
 Project = namedtuple(
     "Entry",

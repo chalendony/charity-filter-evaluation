@@ -24,11 +24,10 @@ https://www.betterplace.org/de/api_v4/projects?category_id=2
 session = HTMLSession()
 
 ## TODO move to config
-path = "/home/avare/repos/charity-filter-evaluation/data"
+path = "/home/avare/repos/charity-filter-evaluation/data/"
 outfile = "betterplace_sample_projects_de.json"
 max_category_id = 46
-base = "https://www.betterplace.org/de/api_v4/projects?per_page=100&category_id="
-
+base = "https://www.betterplace.org/de/api_v4/projects?per_page=5&category_id="
 
 
 # dict
@@ -46,7 +45,8 @@ def count_projects_on_page(page):
 def projects():
 
     # max category id
-    for category in range (1,max_category_id):
+    #for category in range (min_category_id,max_category_id):
+    for category in range(1, max_category_id):
 
         url = base + str(category)
         text = getpage(url)
@@ -59,7 +59,7 @@ def projects():
         print(f"total_pages: ", total_pages)
 
         # total_pages : project for the given category
-        for page in range(1,total_pages):
+        for page in [1]:
 
             url = base + str(category) + '&page=' + str(page)
             text = getpage(url)
