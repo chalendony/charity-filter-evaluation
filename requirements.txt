@@ -19,7 +19,7 @@ Jinja2==2.10.1
 jsonschema==3.0.1
 jupyter-client==5.2.4
 jupyter-core==4.4.0
-jupyterlab==1.0.0a3
+jupyterlab==1.2.21
 jupyterlab-server==0.3.0
 kiwisolver==1.1.0
 lxml==4.3.3
